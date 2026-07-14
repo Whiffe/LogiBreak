@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Local machines and experiment notes
+command.md
+*.log
+
+# Datasets, model artifacts, papers, and experiment outputs
+Dataset/*
+!Dataset/README.md
+results/*
+!results/README.md
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.xlsx
+*.parquet
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.pdf
+
